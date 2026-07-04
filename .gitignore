@@ -1,0 +1,22 @@
+# Secrets - never commit real AWS IoT credentials
+lib/aws_secrets.dart
+
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# Platform build artifacts
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# OS
+.DS_Store
+Thumbs.db
