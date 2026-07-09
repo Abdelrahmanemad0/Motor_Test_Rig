@@ -1,0 +1,30 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Secrets — never commit real AWS IoT credentials
+lib/aws_config.dart
+
+# Platform build output (if scaffolded locally)
+/android/
+/ios/
+/macos/
+/linux/
+/windows/
+/web/
+
+# OS
+.DS_Store
+
+# ESP32 / Arduino
+*.hex
+*.bin
